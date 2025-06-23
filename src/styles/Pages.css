@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+}
+
+.checkbutton{
+    font-size: 30px;
+    color:rgb(78, 20, 225);
+    float: right;
+    line-height: 100px;
+}
+.heading
+{
+
+   text-align: center; 
+   color:blue;
+}
+.paragraph {
+    background-color:white;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+#heading{
+    color:blue;
+    text-align: center;
+
+}
+nav{
+    align-items: left;
+    gap:25px;
+    
+}
