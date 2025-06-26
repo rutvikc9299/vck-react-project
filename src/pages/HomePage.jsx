@@ -7,8 +7,14 @@ const HomePage = () =>{
            
             <div class="content">
           <div class="paragraph">
-            <h1  id="heading">Welcome to Vivekanand College!</h1>
-            
+            <div class="hero-section">
+              <img alt="Vivekanand College Camous" class="hero-banner-image" src="images\college-banner-Cz0xylpt.png"></img>
+              <div class="hero-overlay-text">
+              <h1  id="t">Welcome to Vivekanand College!</h1>
+              <p>Your Journey to excellence starts here.</p>
+                <a class="btn hero-btn" href="/admission" data-discover="true">Apply Now!</a>
+            </div>
+          </div>
             <p>
               <b>Vivekanand College</b> is a premier educational institution
               dedicated to fostering academic excellence, innovation, and
@@ -23,7 +29,7 @@ const HomePage = () =>{
               create a unique ecosystem where curiosity thrives and future
               leaders are shaped.
             </p>
-            <h2>Why Choose Vivekanand College?</h2>
+            <h1>Why Choose Vivekanand College?</h1>
             <ul>
               
               <li><b>Legacy of Excellence:</b> Decades of commitment to quality education.</li>
@@ -33,24 +39,26 @@ const HomePage = () =>{
               <li><b>Strong Placements:</b> Excellent career opportunities with leading companies.</li>
             </ul>
 
-            <h2>Campus Life & Facilities</h2>
+            <h1>Campus Life & Facilities</h1>
+            <div class="im">
             <img src="./images/campus-life-Crkero7B.jpg"></img>
             <img src="./images/students-studying-DbLGuwF_.jpeg" height={200}></img>
+            </div>
             <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
             
-            
+            <div class="o">
             <p >Ready to explore our courses?</p>
-            
+            </div>
             <div class="call-to-action">
               <a class="button" href="/admission" >
                 Explore Courses
               </a>
-            
+            </div>
               <footer class="footer">
           <p> 2025 Vivekanand College. All rights reserved.</p>
         </footer>
-
-            </div>
+            
+            
           
 
           </div>

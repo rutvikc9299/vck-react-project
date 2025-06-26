@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+
 const CoursesPage = () => {
     return(
         <div>
@@ -9,12 +9,12 @@ const CoursesPage = () => {
           <div class="paragraph">
             <h1  id="heading">Our Academic Programs</h1>
             <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
-            <h2>Discover Campus Life</h2>
+            <h1>Discover Campus Life</h1>
             <video src="college.mp4" height="200px" width="auto" controls>
 	        </video>
             <p>Get a glimpse of the vibrant academic and social life at Vivekanand College.</p>
-            <h2>Undergraduate Programs (UG)</h2>
-
+            
+            <h1>Undergraduate Programs (UG)</h1>
             <ul>
                 <li>Bachelor of Science (B.Sc.)</li>
                     <ul>
@@ -23,6 +23,7 @@ const CoursesPage = () => {
                         <li>Biotechnology (3 years)</li>
                     </ul>
             </ul>
+            
             <ul>
                 <li>Bachelor of Commerce (B.Com)</li>
                     <ul>
@@ -39,7 +40,7 @@ const CoursesPage = () => {
                         
                     </ul>
             </ul>
-            <h2>Postgraduate Programs (PG)</h2>
+            <h1>Postgraduate Programs (PG)</h1>
             <ul>
                 <li>Master of Science (M.Sc.)</li>
                     <ul>
@@ -49,8 +50,9 @@ const CoursesPage = () => {
                     </ul>
                 <li>Master of Commerce (M.Com) (2 years)</li>
                 <li>Master of Arts (M.A.) (2 years)</li>
-             </ul>
-             <h2>Program Details & Fee Structure (Annual)</h2>
+            </ul>
+            
+             <h1>Program Details & Fee Structure (Annual)</h1>
              <table border="1">
                 <tr>
 
@@ -90,15 +92,22 @@ const CoursesPage = () => {
              <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
 
 
-             <p>Have questions about a specific course?</p>
+             <p class="e">Have questions about a specific course?</p>
              <div class="call-to-action">
               
               <a class="button" href="/admission" >
                 Inquire About Courses!
               </a>
+
+             
               
             </div>
+             
+             <footer class="footer">
+          <p> 2025 Vivekanand College. All rights reserved.</p>
+        </footer>
             </div>
+           
             </div>
 
 

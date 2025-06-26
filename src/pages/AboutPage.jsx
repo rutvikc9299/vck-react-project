@@ -1,6 +1,6 @@
 import Header from "../components/Header/Header";
 
-const AboutPage = () =>{
+const AboutPage = () => {
     return(
         <div>
             <Header/>

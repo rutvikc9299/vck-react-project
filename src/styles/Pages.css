@@ -1,10 +1,4 @@
-*{
-    padding: 0;
-    margin:0;
-    text-decoration: none;
-    list-style:none;
-    box-sizing:border-box;
-}
+
 
 .checkbutton{
     font-size: 30px;
@@ -16,11 +10,11 @@
 {
 
    text-align: center; 
-   color:blue;
+   color:white;
 }
 .paragraph {
     background-color:white;
-    justify-content: center;
+   
     align-items: flex-start;
     padding: 20px;
 }
@@ -33,4 +27,134 @@ nav{
     align-items: left;
     gap:25px;
     
+}
+.college-name a {
+    color: #fff;
+    
+    transition: color .3s ease;
+}
+.nav-item {
+    color: #fff;
+    
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color .3s ease, border-bottom .3s ease;
+}
+@media (max-width: 768px) {
+    .hero-section {
+        height: 250px;
+    }
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    
+    overflow: hidden;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media (max-width: 768px) {
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
+.hero-btn {
+    background-color: #28a745;
+    font-size: 1.0em;
+    padding: 15px 30px;
+    text-align: center;
+}
+.hero-overlay-text {
+    text-align: center;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.o{
+    text-align: center;
+}
+.button{
+    background-color: #28a745;
+    color:rgb(251,249, 249);
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+.call-to-action{
+    text-align: center;
+}
+.e{
+    text-align: center;
+}
+.hero-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    filter: brightness(60%);
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.hero-overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 90%;
+}
+.im{
+    width:100%;
+    text-align: center;
+    object-fit: cover;
+    max-width: 768px;
+}
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+}
+table {
+    display: table;
+    
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.content {
+    background-color: #52d2d2;
+    flex-grow: 1;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+body {
+    display: block;
+    margin: 2px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
 }
