@@ -1,5 +1,4 @@
 import Header from '../components/Header/Header';
-import '../styles/Pages.css';
 
 const AdmissionPage = () => {
     return(
