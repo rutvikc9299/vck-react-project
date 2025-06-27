@@ -10,7 +10,7 @@ const CoursesPage = () => {
             <h1  id="heading">Our Academic Programs</h1>
             <p>Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.</p>
             <h1>Discover Campus Life</h1>
-            <video src="college.mp4" height="200px" width="auto" controls>
+            <video src="\videos\college.mp4" height="200px" width="auto" controls>
 	        </video>
             <p>Get a glimpse of the vibrant academic and social life at Vivekanand College.</p>
             
