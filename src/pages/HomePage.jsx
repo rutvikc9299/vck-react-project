@@ -12,7 +12,7 @@ const HomePage = () =>{
               <div class="hero-overlay-text">
               <h1  id="t">Welcome to Vivekanand College!</h1>
               <p>Your Journey to excellence starts here.</p>
-                <Link to="/admissions" className="btn hero-btn">
+                <Link to="/admission" className="btn hero-btn">
             Apply Now!
           </Link>{" "}
             </div>
